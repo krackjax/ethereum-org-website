@@ -33,7 +33,7 @@ Proof-of-stake is the underlying mechanism that activates validators upon receip
 
 Unlike proof-of-work, validators don't need to use significant amounts of computational power because they're selected at random and aren't competing. They don't need to mine blocks, they just need to create blocks when chosen and validate proposed blocks when they're not. This validation is known as attesting. You can think of attesting as saying "this block looks good to me". Validators get rewards for proposing new blocks and for attesting to ones they've seen.
 
-If you attest to malicious blocks, you lose your stake.
+If you incorrectly attest to blocks, you lose your stake.
 
 ### The beacon chain {#the-beacon-chain}
 
